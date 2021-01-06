@@ -44,4 +44,4 @@ echo "[!] Running aquatone..."
 cat output/$1/subs/sub_alive.txt | aquatone -out output/$1/aqua/
 
 echo "[!] Running naabu..."
-naabu -hL output/$1/subs/sub_sort.txt -oD output/$1/naabu/
+naabu -iL output/$1/subs/sub_sort.txt -o output/$1/naabu/
